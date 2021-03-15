@@ -1,0 +1,40 @@
+.leftBorder {
+    border-left: 1px solid #AAA;
+}
+
+.bigText {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.bigTextBold {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.mgl1 {
+    margin-left: 1rem;
+}
+
+.mgt1 {
+    margin-top: 1rem;
+}
+
+.mgb1 {
+    margin-bottom: 1rem;
+}
+
+table {
+    table-layout: fixed;
+}
+
+td, th {
+    border: 0;
+    border-left: 1px solid gray;
+    padding: 1rem;
+    min-width: 100%/3;
+}
+
+td:first-child, th:first-child {
+    border: 0;
+}

@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Interstate-ExtraLight'; /*a name to be used later*/
+    src: url('/assets/fonts/Interstate-ExtraLight.otf'); /*URL to font*/
+}
+
+body {
+    font-family: Interstate-ExtraLight, Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.pd1 {
+    padding: 1rem;
+}
+
+.mg1 {
+    margin: 1rem 0rem;
+}
+
+.mgt1 {
+    margin-top: 1rem;
+}
+
+.mgr1 {
+    margin-right: 1rem;
+}
+
+.tm-red {
+    color: #C40501;
+}
+
+.alt-red {
+    color: #CC0000;
+}
+
+.tm-red-bg {
+    background-color: #C40501;
+    color: #FFF;
+}
+
+.alt-red-bg {
+    background-color: #CC0000;
+    color: #FFF;
+}
+
+.alert-blue {
+    background-color: #00467F;
+    color: #FFF;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.floatRight {
+    float: right;
+}
+
+.text-strong {
+    font-weight: bold;
+}
+
+.text-stronger {
+    font-weight: bolder;
+}
+
+.siteLogo {
+    max-height: 3rem;
+    max-width: auto;
+}
+
+a, a:visited, a:link, a:hover, a:active {
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #FFF;
+}

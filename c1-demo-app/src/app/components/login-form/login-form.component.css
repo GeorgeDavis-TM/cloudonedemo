@@ -1,0 +1,49 @@
+.img {
+    background-image: url('/assets/img/homepage_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFF;
+    position: absolute;
+    transform: scaleX(-1);
+    max-height: 40rem;
+    /* TODO: Flip Image Vertical */
+}
+
+.form-style {
+    margin: 10% 10%;
+    float: right;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 5px 5px #888;
+    background-color: #FFF;
+    /* border-radius: 0.5rem; */
+}
+
+.form-style button {
+    border-radius: 0;
+}
+
+.bannerText {
+    display: flex;
+    align-items: center;
+}
+
+.bannerTextBox {
+    margin-left: 10%;
+}
+
+.bigText {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    line-height: 4rem;
+}
+
+.bigTextBold {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+a:hover {
+    
+}

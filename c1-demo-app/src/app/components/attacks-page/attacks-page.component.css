@@ -1,0 +1,22 @@
+.bigText {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+button {
+    background-color: #FFF;
+    color: #CC0000;
+    border: 1px solid #C40501;
+    border-radius: 0;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+button:first-child {
+    margin: 0;
+}
+
+button:hover {
+    color: #FFF;
+    background-color: #C40501;
+}

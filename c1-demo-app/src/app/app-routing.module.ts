@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'environment', component: EnvironmentPageComponent },
   { path: 'attacks', component: AttacksPageComponent },
   { path: 'about-us', component: AboutUsPageComponent },
+  { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
 @NgModule({

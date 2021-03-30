@@ -1,6 +1,7 @@
 var loginRepo = require('../data/login');
 
 exports.postLogin = function (req, res) {
+    console.log(req.body.username)
     console.log("\nService Contacted...");  
     try {
         if(!req.body.username || !req.body.password) {

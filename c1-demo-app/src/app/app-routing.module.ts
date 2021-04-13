@@ -6,6 +6,7 @@ import { WelcomePageComponent } from  './components/welcome-page/welcome-page.co
 import { EnvironmentPageComponent } from './components/environment-page/environment-page.component';
 import { AttacksPageComponent } from './components/attacks-page/attacks-page.component';
 import { AboutUsPageComponent } from './components/about-us-page/about-us-page.component';
+import { UploadFormPageComponent } from './components/upload-form/upload-form.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'environment', component: EnvironmentPageComponent },
   { path: 'attacks', component: AttacksPageComponent },
   { path: 'about-us', component: AboutUsPageComponent },
+  { path: 'upload', component: UploadFormPageComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

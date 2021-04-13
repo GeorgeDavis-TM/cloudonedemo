@@ -10,7 +10,7 @@ import { WelcomePageComponent } from './components/welcome-page/welcome-page.com
 import { EnvironmentPageComponent } from './components/environment-page/environment-page.component';
 import { AttacksPageComponent } from './components/attacks-page/attacks-page.component';
 import { AboutUsPageComponent } from './components/about-us-page/about-us-page.component';
-import { UploadFormComponent } from './components/upload-form/upload-form.component';
+import { UploadFormPageComponent } from './components/upload-form/upload-form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { UploadFormComponent } from './components/upload-form/upload-form.compon
     EnvironmentPageComponent,
     AttacksPageComponent,
     AboutUsPageComponent,
-    UploadFormComponent
+    UploadFormPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  serviceUrl: "http://127.0.0.1:8000"
+  serviceUrl: "http://3.129.164.225:8000"
 };

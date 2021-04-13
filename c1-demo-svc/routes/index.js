@@ -1,4 +1,5 @@
 module.exports = {
     login: require('./login'),
-    cmd: require('./cmd')
+    cmd: require('./cmd'),
+    upload: require('./upload')
 };

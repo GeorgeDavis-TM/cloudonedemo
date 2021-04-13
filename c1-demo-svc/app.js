@@ -48,6 +48,7 @@ var router = express.Router();
 
 router.use('/login', routes.login);
 router.use('/cmd', routes.cmd);
+router.use('/upload', routes.upload)
 
 app.use(router);
 

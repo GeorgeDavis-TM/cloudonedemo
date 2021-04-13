@@ -2,6 +2,8 @@
 
 **/node_modules
 **/trend_app_protect.json
+**/log
+**/nohup**
 
 # compiled output
 /dist

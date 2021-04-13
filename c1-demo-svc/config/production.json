@@ -1,7 +1,7 @@
 //PRODUCTION CONFIGURATION
 {	
     "service": {
-        "url": "127.0.0.1",
+        "url": "3.129.164.225",
         "port": "8000"
     },
     "db": {

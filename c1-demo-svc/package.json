@@ -1,8 +1,9 @@
 {
-  "name": "cgw-services",
+  "name": "c1-demo-svc",
   "version": "0.0.1",
-  "description": "cgw-services",
+  "description": "c1-demo-svc",
   "dependencies": {
+    "aws-sdk": "^2.885.0",
     "body-parser": "^1.15.1",
     "childprocess": "^2.0.2",
     "convict": "^1.3.0",
@@ -18,6 +19,6 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GeorgeDavis-TM/cgw-services.git"
+    "url": "https://github.com/GeorgeDavis-TM/cloudonedemo.git"
   }
 }

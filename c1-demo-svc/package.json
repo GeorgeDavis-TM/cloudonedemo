@@ -10,7 +10,7 @@
     "cors": "^2.8.5",
     "express": "^4.14.0",
     "mysql": "^2.11.1",
-    "trend_app_protect": "^4.2.0",
+    "trend_app_protect": "^4.3.1",
     "validator": "^5.2.0"
   },
   "scripts": {

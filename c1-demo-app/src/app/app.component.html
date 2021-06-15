@@ -3,7 +3,7 @@
     <ul class="nav nav-pills">
       <li class="nav-item">
         <a href="/" class="nav-link">
-          <img class="siteLogo" src="../assets/img/tm-logo-desktop.png"
+          <img class="siteLogo" src="assets/img/tm-logo-desktop.png" i18n-alt
               alt="Trend Micro Logo" />
         </a>
       </li>
@@ -13,51 +13,42 @@
       <li>
         <input type="button" onclick="location.href='cloudone.trendmicro.com';" class="btn tm-red-bg" value="Contact Us"/>
       </li> -->
-      <li class="nav-item"><a routerLink="" class="nav-link active" data-toggle="pill">Home</a></li>
-      <li class="nav-item"><a routerLink="welcome" class="nav-link" data-toggle="pill">Welcome</a></li>
-      <li class="nav-item"><a routerLink="environment" class="nav-link" data-toggle="pill">Environment</a></li>
-      <li class="nav-item"><a routerLink="attacks" class="nav-link" data-toggle="pill">Attacks</a></li>
-      <li class="nav-item"><a routerLink="about-us" class="nav-link" data-toggle="pill">About Us</a></li>
+      <li class="nav-item"><a routerLink="" class="nav-link active" data-toggle="pill" i18n="header link home |header nav link home">Home</a></li>
+      <li class="nav-item"><a routerLink="welcome" class="nav-link" data-toggle="pill" i18n="header link welcome|header nav link welcome">Welcome</a></li>
+      <li class="nav-item"><a routerLink="environment" class="nav-link" data-toggle="pill" i18n="header link environment|header nav link environment">Environment</a></li>
+      <li class="nav-item"><a routerLink="attacks" class="nav-link" data-toggle="pill" i18n="header link attacks|header nav link attacks">Attacks</a></li>
+      <li class="nav-item"><a routerLink="about-us" class="nav-link" data-toggle="pill" i18n="header link about-us|header nav link about-us">About Us</a></li>
     </ul>
   </nav>
 </div>
-<!-- <hr> -->
-<!-- <div class="container-fluid header pd1">
-  <nav>
-    <ul class="displayInline">
-      <li><a href="/">Home</a></li>
-      <li><a href="/welcome">Welcome</a></li>
-      <li><a href="/environment">Environment</a></li>
-      <li><a href="/attacks">Attacks</a></li>
-    </ul>
-  </nav>
-</div> -->
 <div class="alert alert-blue alert-dismissible fade show" role="alert">
-    <strong>Due to COVID-19</strong>, please refrain from coming in if you are feeling any flu-like symptoms
+    <strong i18n="alert message boldText|alert message boldText">Due to COVID-19</strong>,<article i18n="alert message text|alert message text">please refrain from coming in if you are feeling any flu-like symptoms</article>
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
       <span aria-hidden="true">&#215;</span>
     </button>
 </div>
-
 <router-outlet></router-outlet>
-
-<div>
-  <hr>
-  <div class="container-fluid">
-    <h6>Useful Links</h6>
-    <ul>
-      <li>
-        <a href="https:/cloudone.trendmicro.com">Trend Micro Cloud One</a>
-      </li>
-      <li>
-        <a href="#">Cloud One Conformity Onboarding</a>
-      </li>
-      <li>
-        <a href="https://cloudconformity.com">Cloud One Conformity</a>
-      </li>
-      <li>
-        <a href="#">Trend Micro Blog</a>
-      </li>
-    </ul>
+<div id="app-console"></div>
+<div class="footer mt-auto">
+  <div class="container-fluid mt1 mb1">
+    <strong i18n="link|customer useful product links">Useful Links</strong>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https:/cloudone.trendmicro.com" i18n="cloud one title|link to TM Cloud One">Trend Micro Cloud One</a></td>
+          <td><a href="https://blog.trendmicro.com" i18n="blog title|link to TM Blog">Trend Micro Blog</a></td>
+        </tr>
+        <tr>
+          <td><a href="https:/cloudone.trendmicro.com" i18n="conformity onboarding|link to Conformity">Cloud One Conformity Onboarding</a></td>
+          <td><a href="https://cloudconformity.com" i18n="conformity title|link to Conformity">Cloud One Conformity</a></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>

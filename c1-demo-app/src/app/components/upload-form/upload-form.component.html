@@ -1,19 +1,19 @@
 <div class="container-fluid mgt1">
     <div class="row">
         <div class="col">
-            <article class="bigText">Upload your patient medical records here</article>
-            <form>
+            <article class="bigText" i18n="upload bigText|upload patient medical records here">Upload your patient medical records here</article>
+            <form class="form">
                 <div class="input-group">
                     <div class="custom-file">
-                        <label for="file-upload" class="custom-file-label">Browse to choose a file to upload</label>
+                        <label for="file-upload" class="custom-file-label" i18n="upload browse file|Browse to choose a file to upload">Browse to choose a file to upload</label>
                         <input id="file-upload" type="file" name="upload" class="custom-file-input" (change)="updateCustomFileLabel();"/>
                     </div>
                     <div class="input-group-append">
-                        <button (click)="uploadFile();" class="btn btn-primary">Upload</button>
+                        <button (click)="uploadFile();" class="btn btn-primary" i18n="upload button|button action to upload">Upload</button>
                     </div>
                 </div>
             </form>
-            <button routerLink="" class="btn btn-primary siteGradient marginTop10 callToActionButton">Log Out</button>
+            <button routerLink="" class="btn btn-primary siteGradient marginTop10 callToActionButton" i18n="upload logout|log out or exit">Log Out</button>
         </div>
     </div>
 </div>

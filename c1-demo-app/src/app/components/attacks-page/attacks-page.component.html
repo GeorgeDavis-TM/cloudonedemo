@@ -1,16 +1,16 @@
 <div class="container-fluid mgt1">
     <div class="row">
         <div class="col">
-            <article class="bigText">Some of the most common attacks in the industry</article>
-            <p>These attacks can be protected in many different ways which are laid out below.</p>
+            <article class="bigText" i18n="attacks bigText|page header">Some of the most common attacks in the industry</article>
+            <p i18n="attacks subText|page subtext">These attacks can be protected in many different ways which are laid out below.</p>
             <div>
-                <button class="btn tm-red-bg" (click)="remoteCmdExec()">Test Attack</button>
-                <button class="btn tm-red-bg" (click)="workloadAttackExec()">Attack Workload</button>
-                <button class="btn tm-red-bg" (click)="conformityCfnExec()">Generate Cloud Misconfiguration</button>
+                <button class="btn tm-red-bg" (click)="remoteCmdExec()" i18n="app attack button text|button action to attack Application Security">Application Command Injection Attack</button>
+                <button class="btn tm-red-bg" (click)="workloadAttackExec()" i18n="workload attack button text|button action to attack Workload Security">Attack Workload</button>
+                <button class="btn tm-red-bg" (click)="conformityCfnExec()" i18n="conformity attack button text|button action to generate cloud misconfiguration">Generate Cloud Misconfiguration</button>
             </div>
         </div>
         <div class="col">
-            <img src="/assets/img/attacker.jpg" alt="Demo Attacks" />
+            <img src="assets/img/attacker.jpg" alt="Demo Attacks" />
         </div>
     </div>
 </div>

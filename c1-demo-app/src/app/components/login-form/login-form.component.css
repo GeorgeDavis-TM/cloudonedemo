@@ -1,12 +1,12 @@
 .img {
-    background-image: url('/assets/img/homepage_banner.jpg');
+    /* background-image: url('assets/img/homepage_banner.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: #FFF;
     position: absolute;
     transform: scaleX(-1);
-    max-height: 40rem;
+    /* max-height: 40rem; */
     /* TODO: Flip Image Vertical */
 }
 

@@ -32,7 +32,7 @@ export class LoginFormComponent implements OnInit {
 
     console.log(body)
 
-    this.http.post<any>(environment.serviceUrl + "/login/login", body).subscribe(data => {
+    this.http.post<any>(environment.serviceUrl + "/login", body).subscribe(data => {
       console.log("Login -");
       console.dir(data);  
       // console.log(typeof(data));

@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Interstate-ExtraLight'; /*a name to be used later*/
-    src: url('/assets/fonts/Interstate-ExtraLight.otf'); /*URL to font*/
+    src: url('assets/fonts/Interstate-ExtraLight.otf'); /*URL to font*/
 }
 
 body {

@@ -1,18 +1,18 @@
 <div id="banner" class="row col-lg col-md col-sm" onload="modalOnLoad()">
-  <img src="/assets/img/homepage_banner.jpg" alt="homepage_banner" class="img"/>
+  <img src="assets/img/homepage_banner.jpg" alt="homepage_banner" class="img"/>
   <div class="col bannerText">
     <div class="bannerTextBox">
-      <article class="bigText">Welcome to</article>
-      <article class="bigTextBold">TM Health</article>
-      <article class="bigTextBold">Care Center</article>
+      <article class="bigText" i18n="login welcome|welcome text">Welcome to</article>
+      <article class="bigTextBold" i18n="login site name|trend micro health">TM Health</article>
+      <article class="bigTextBold" i18n="login site subname|care center">Care Center</article>
   </div>
   </div>
   <div class="col">
     <form class="pd1 mg1 form-style"> <!-- col-xs-4 col-sm-4 col-md-5 col-lg-5 -->
       <h3>Login</h3>
       <div class="row form-group mg1">
-        <input type="text" placeholder="User ID" [formControl]="username" class="col form-control mgr1"/>
-        <input type="password" placeholder="Password" [formControl]="password" class="col form-control"/>
+        <input type="text" placeholder="User ID" i18n-placeholder="login userid|login user id " [formControl]="username" autocomplete="username" class="col form-control mgr1"/>
+        <input type="password" placeholder="Password" i18n-placeholder="login password|login password" [formControl]="password" autocomplete="current-password" class="col form-control"/>
       </div>
       <!-- <div class="row form-group pd1">
         <input type="checkbox" class="form-control mgr1"/>
@@ -20,13 +20,13 @@
       </div> -->
       <div class="container-fluid mg1 form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Remember my User ID</label>
+        <label class="form-check-label" for="exampleCheck1" i18n="login remember|form remember user id">Remember my User ID</label>
       </div>
       <!-- <input type="button" class="btn tm-red-bg text-stronger" value="Please login"/> -->
-      <button class="btn alt-red-bg text-strong col-lg col-md col-sm" (click)="login()">Please login</button>
+      <button class="btn alt-red-bg text-strong col-lg col-md col-sm" (click)="login()" i18n="login button|button action to login">Please login</button>
       <div class="row form-group">
-        <a href="#" class="col alt-red pd1 mgr1">Forgot User ID?</a>
-        <a href="#" class="col alt-red pd1">Forgot Password?</a>
+        <a href="#" class="col alt-red pd1 mgr1" i18n="login linkText forgot userid|forgot user id?">Forgot User ID?</a>
+        <a href="#" class="col alt-red pd1" i18n="login linkText forgot password|forgot user password?">Forgot Password?</a>
       </div>
     </form>
   </div>
@@ -35,15 +35,15 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">What would you like to do today?</h5>
+        <h5 class="modal-title" i18n="login intent query|question to know user intent">What would you like to do today?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <span>We have two options to proceed with the Cloud One Demo</span>
+        <span i18n="login options text|explain options to user">We have two options to proceed with the Cloud One Demo</span>
         <ul>
-          <li>
+          <li i18n="login option 1|book a demo with sales engineer">
             You can book a demo with a Sales Engineer here
             <form action="mailto:george_davis@trendmicro.com" method="GET">
               <input name="subject" type="text" hidden/>
@@ -51,12 +51,12 @@
               <input type="submit" class="btn tm-red-bg text-strong" value="Book a demo" />
             </form>
           </li>
-          <li>Do-It-Yourself Hands-on Cloud One experience</li>
+          <li i18n="login option 2|do it yourself or hands-on">Do-It-Yourself Hands-on Cloud One experience</li>
         </ul>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" i18n="login save prompt|save changes">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" i18n="login close|close window">Close</button>
       </div>
     </div>
   </div>

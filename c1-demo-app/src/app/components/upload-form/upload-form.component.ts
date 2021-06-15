@@ -59,10 +59,12 @@ export class UploadFormPageComponent implements OnInit {
       
       let body = {
         "name": file[0].name,
-        "contents": this.fileContents
+        "contents": this.fileContents,
+        "bucketName": environment.c1FileStorageSecS3BucketName,
+        "region": environment.c1DemoHostedAwsRegion
       }
 
-      this.http.post<any>(environment.serviceUrl + "/upload/upload", body).subscribe(data => {
+      this.http.post<any>(environment.serviceUrl + "/upload", body).subscribe(data => {
         console.log("Upload -");
         console.dir(data);  
         // console.log(typeof(data));

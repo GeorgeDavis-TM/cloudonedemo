@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="488fd5581a2ef1dd7daa9425b7bfc70a9e5fb407" datatype="html">
+        <source>Trend Micro Logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0bb37995d823c80f461e85d71be9b26601a179e" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">header nav link home</note>
+        <note priority="1" from="meaning">header link home </note>
+      </trans-unit>
+      <trans-unit id="9f4e66fc55e77abc871971819ab06d26ea093a41" datatype="html">
+        <source>Welcome</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">header nav link welcome</note>
+        <note priority="1" from="meaning">header link welcome</note>
+      </trans-unit>
+      <trans-unit id="65fd85e7aeaf25624a7d02e6dcf05074b4d522dd" datatype="html">
+        <source>Environment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">header nav link environment</note>
+        <note priority="1" from="meaning">header link environment</note>
+      </trans-unit>
+      <trans-unit id="8dee0cedb070646d0926cb651132af56b3c54c10" datatype="html">
+        <source>Attacks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">header nav link attacks</note>
+        <note priority="1" from="meaning">header link attacks</note>
+      </trans-unit>
+      <trans-unit id="dc93efb2796ed4bfb54f7da7a9765b0e70e1fef1" datatype="html">
+        <source>About Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">header nav link about-us</note>
+        <note priority="1" from="meaning">header link about-us</note>
+      </trans-unit>
+      <trans-unit id="f19be180d6a269d037b485010f8f5ae714e73044" datatype="html">
+        <source>Due to COVID-19</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">alert message boldText</note>
+        <note priority="1" from="meaning">alert message boldText</note>
+      </trans-unit>
+      <trans-unit id="57c183a2ae4fc93d11cd50b3338b3e4058075b00" datatype="html">
+        <source>please refrain from coming in if you are feeling any flu-like symptoms</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">alert message text</note>
+        <note priority="1" from="meaning">alert message text</note>
+      </trans-unit>
+      <trans-unit id="22ba15849bb89ff1b8726e6de7ee0c37b6a0b166" datatype="html">
+        <source>Useful Links</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">customer useful product links</note>
+        <note priority="1" from="meaning">link</note>
+      </trans-unit>
+      <trans-unit id="8a6553256a81699c10b3c25c043e563e2efc0f5b" datatype="html">
+        <source>Trend Micro Cloud One</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">link to TM Cloud One</note>
+        <note priority="1" from="meaning">cloud one title</note>
+      </trans-unit>
+      <trans-unit id="af55209a9db4764d12081c042102dd79e9ececa6" datatype="html">
+        <source>Trend Micro Blog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <note priority="1" from="description">link to TM Blog</note>
+        <note priority="1" from="meaning">blog title</note>
+      </trans-unit>
+      <trans-unit id="adf4b62b804d1f7d5a9363b8d532f6b7ddcce4ab" datatype="html">
+        <source>Cloud One Conformity Onboarding</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <note priority="1" from="description">link to Conformity</note>
+        <note priority="1" from="meaning">conformity onboarding</note>
+      </trans-unit>
+      <trans-unit id="81687e5580dfdaea7fb553cad24a9891356816f9" datatype="html">
+        <source>Cloud One Conformity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">link to Conformity</note>
+        <note priority="1" from="meaning">conformity title</note>
+      </trans-unit>
+      <trans-unit id="1b41b42e9a8e3fe398b7731faee200de2bc52e4c" datatype="html">
+        <source>Introducing Trend Micro Cloud One</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-us-page/about-us-page.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">introduction to TM Cloud One</note>
+        <note priority="1" from="meaning">cloud one introduction</note>
+      </trans-unit>
+      <trans-unit id="44607433ff866c8d70c1f15afbd1953adb6ca7cf" datatype="html">
+        <source>Some of the most common attacks in the industry</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/attacks-page/attacks-page.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">page header</note>
+        <note priority="1" from="meaning">attacks bigText</note>
+      </trans-unit>
+      <trans-unit id="17a177a0c00e6167c4aa04a832e99f0007f3f135" datatype="html">
+        <source>These attacks can be protected in many different ways which are laid out below.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/attacks-page/attacks-page.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">page subtext</note>
+        <note priority="1" from="meaning">attacks subText</note>
+      </trans-unit>
+      <trans-unit id="54793162df68d431f43311075864632d0f49ca01" datatype="html">
+        <source>Application Command Injection Attack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/attacks-page/attacks-page.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">button action to attack Application Security</note>
+        <note priority="1" from="meaning">app attack button text</note>
+      </trans-unit>
+      <trans-unit id="94b65256ff609728d77fd5a1749f3dc786ef2c5c" datatype="html">
+        <source>Attack Workload</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/attacks-page/attacks-page.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">button action to attack Workload Security</note>
+        <note priority="1" from="meaning">workload attack button text</note>
+      </trans-unit>
+      <trans-unit id="f89d9cbd77de6717af63e34eae737d7ebf53df1f" datatype="html">
+        <source>Generate Cloud Misconfiguration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/attacks-page/attacks-page.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">button action to generate cloud misconfiguration</note>
+        <note priority="1" from="meaning">conformity attack button text</note>
+      </trans-unit>
+      <trans-unit id="44b25c0e78bb12454825d1ce309f257b8655ebe1" datatype="html">
+        <source>Network Diagram</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/environment-page/environment-page.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">title network diagram</note>
+        <note priority="1" from="meaning">environment bigText</note>
+      </trans-unit>
+      <trans-unit id="0a839f97c3ee179d6deb87e008d4a052e1661b04" datatype="html">
+        <source>This Network Security...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/environment-page/environment-page.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">network diagram explanation</note>
+        <note priority="1" from="meaning">environment subText</note>
+      </trans-unit>
+      <trans-unit id="3420383a664c819ffb42351f61d8be968b2e6a50" datatype="html">
+        <source>Welcome to</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">welcome text</note>
+        <note priority="1" from="meaning">login welcome</note>
+      </trans-unit>
+      <trans-unit id="d0fa55916afb50a0eca3417185fb9abbc3dadfdd" datatype="html">
+        <source>TM Health</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">trend micro health</note>
+        <note priority="1" from="meaning">login site name</note>
+      </trans-unit>
+      <trans-unit id="17e762bd0d73f92f9ba52b4e7bd81908f4bf9060" datatype="html">
+        <source>Care Center</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">care center</note>
+        <note priority="1" from="meaning">login site subname</note>
+      </trans-unit>
+      <trans-unit id="147cbe5fc3061829e99bc5d0d7fadf3901226a92" datatype="html">
+        <source>User ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">login user id</note>
+        <note priority="1" from="meaning">login userid</note>
+      </trans-unit>
+      <trans-unit id="a2cca283d4d1df4f236084fbaf56a98b247dc26a" datatype="html">
+        <source>Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">login password</note>
+        <note priority="1" from="meaning">login password</note>
+      </trans-unit>
+      <trans-unit id="3c5672dd163f81ca4605d891a5a453bab4752ac1" datatype="html">
+        <source>Remember my User ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">form remember user id</note>
+        <note priority="1" from="meaning">login remember</note>
+      </trans-unit>
+      <trans-unit id="40d9e6b35df6275a371c5f92a8a48a32f6b71671" datatype="html">
+        <source>Please login</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">button action to login</note>
+        <note priority="1" from="meaning">login button</note>
+      </trans-unit>
+      <trans-unit id="343e516eb8b71ac453843d62f308d7f3e567d974" datatype="html">
+        <source>Forgot User ID?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">forgot user id?</note>
+        <note priority="1" from="meaning">login linkText forgot userid</note>
+      </trans-unit>
+      <trans-unit id="f9187033b29fc6050ddcdade3c07102b8b1144d5" datatype="html">
+        <source>Forgot Password?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">forgot user password?</note>
+        <note priority="1" from="meaning">login linkText forgot password</note>
+      </trans-unit>
+      <trans-unit id="ff29aead6ed5eee142d9d90d8447ed9874a820d7" datatype="html">
+        <source>What would you like to do today?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <note priority="1" from="description">question to know user intent</note>
+        <note priority="1" from="meaning">login intent query</note>
+      </trans-unit>
+      <trans-unit id="b096b687a6e6fa2330caaea375eea54c93f21080" datatype="html">
+        <source>We have two options to proceed with the Cloud One Demo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <note priority="1" from="description">explain options to user</note>
+        <note priority="1" from="meaning">login options text</note>
+      </trans-unit>
+      <trans-unit id="348d4d5e9174e43e30f844325232ce1414201db4" datatype="html">
+        <source> You can book a demo with a Sales Engineer here <x id="START_TAG_FORM" ctype="x-form" equiv-text="&lt;form action=&quot;mailto:george_davis@trendmicro.com&quot; method=&quot;GET&quot;&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input name=&quot;subject&quot; type=&quot;text&quot; hidden/&gt;"/><x id="START_TAG_TEXTAREA" ctype="x-textarea" equiv-text="&lt;textarea name=&quot;body&quot; hidden&gt;"/><x id="CLOSE_TAG_TEXTAREA" ctype="x-textarea" equiv-text="&lt;/textarea&gt;"/><x id="TAG_INPUT_1" ctype="x-input_1" equiv-text="&lt;input type=&quot;submit&quot; class=&quot;btn tm-red-bg text-strong&quot; value=&quot;Book a demo&quot; /&gt;"/><x id="CLOSE_TAG_FORM" ctype="x-form" equiv-text="&lt;/form&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">47,52</context>
+        </context-group>
+        <note priority="1" from="description">book a demo with sales engineer</note>
+        <note priority="1" from="meaning">login option 1</note>
+      </trans-unit>
+      <trans-unit id="6bb5fc309bb1b40d7063eba0724c55d59dae2246" datatype="html">
+        <source>Do-It-Yourself Hands-on Cloud One experience</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <note priority="1" from="description">do it yourself or hands-on</note>
+        <note priority="1" from="meaning">login option 2</note>
+      </trans-unit>
+      <trans-unit id="926303dfd814f3e7a126767fd2e5cf8f533aa049" datatype="html">
+        <source>Save changes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <note priority="1" from="description">save changes</note>
+        <note priority="1" from="meaning">login save prompt</note>
+      </trans-unit>
+      <trans-unit id="9ef746da7563f5027f5a03cf1a45e49e40736bfd" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login-form/login-form.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <note priority="1" from="description">close window</note>
+        <note priority="1" from="meaning">login close</note>
+      </trans-unit>
+      <trans-unit id="ed2dc7bca7da68ef21b3b6e6671980ccaa4c27da" datatype="html">
+        <source>Upload your patient medical records here</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/upload-form/upload-form.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">upload patient medical records here</note>
+        <note priority="1" from="meaning">upload bigText</note>
+      </trans-unit>
+      <trans-unit id="f2e76125958ee070f18d57f8a95a5f8376318209" datatype="html">
+        <source>Browse to choose a file to upload</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/upload-form/upload-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Browse to choose a file to upload</note>
+        <note priority="1" from="meaning">upload browse file</note>
+      </trans-unit>
+      <trans-unit id="0f85d0847f47a90bbf083f0bc05bc1498e00bd0c" datatype="html">
+        <source>Upload</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/upload-form/upload-form.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">button action to upload</note>
+        <note priority="1" from="meaning">upload button</note>
+      </trans-unit>
+      <trans-unit id="7eb551cf788508be6a9e1c4b6babc6296f389b25" datatype="html">
+        <source>Log Out</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/upload-form/upload-form.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">log out or exit</note>
+        <note priority="1" from="meaning">upload logout</note>
+      </trans-unit>
+      <trans-unit id="c1441d2b90c328c341185ddb24640f2ed9e7a687" datatype="html">
+        <source>Welcome to the Cloud One Integrated Demo platform.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">page header</note>
+        <note priority="1" from="meaning">welcome bigText</note>
+      </trans-unit>
+      <trans-unit id="30bb5237c5942b118149372b19efdc5690d3f095" datatype="html">
+        <source>This platform can be used to Demo, multiple cloud one products at once.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">page description</note>
+        <note priority="1" from="meaning">welcome subText</note>
+      </trans-unit>
+      <trans-unit id="d73f374f057b6822fc4d0c14aaa1d350a97d5766" datatype="html">
+        <source>Version 1</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">version 1</note>
+        <note priority="1" from="meaning">welcome version 1</note>
+      </trans-unit>
+      <trans-unit id="cc309cd1d79cddf82742ec84ab188b7a9c362c3a" datatype="html">
+        <source>Version 2</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">version 2</note>
+        <note priority="1" from="meaning">welcome version 2</note>
+      </trans-unit>
+      <trans-unit id="f88dd20dea25de346f0257366c358a02b0cfc1cd" datatype="html">
+        <source>Version 3 - Current</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">version 3</note>
+        <note priority="1" from="meaning">welcome version 3</note>
+      </trans-unit>
+      <trans-unit id="fdc4754feee1e40619055f48253cc1c90e4f8863" datatype="html">
+        <source>Cloud One</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <note priority="1" from="description">cloud one title</note>
+        <note priority="1" from="meaning">cloud one title</note>
+      </trans-unit>
+      <trans-unit id="eb09935201797fea0d6d4f1ab044ec832b55d16a" datatype="html">
+        <source>Application Security</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">application security product title</note>
+        <note priority="1" from="meaning">appsec title</note>
+      </trans-unit>
+      <trans-unit id="1bb48a5c4f8a789ff0e469e185c96207975d062a" datatype="html">
+        <source> (Available)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="description">demo is available in this version of the sandbox</note>
+        <note priority="1" from="meaning">available</note>
+      </trans-unit>
+      <trans-unit id="9b8632c81dba75ad1af59cbfaccbb506d9bf1ee9" datatype="html">
+        <source>Conformity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">conformity product title</note>
+        <note priority="1" from="meaning">conformity title</note>
+      </trans-unit>
+      <trans-unit id="08905ab7d8b328c29254ab52c1369d1dcdfb3614" datatype="html">
+        <source>Network Security</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">network security product title</note>
+        <note priority="1" from="meaning">networksec title</note>
+      </trans-unit>
+      <trans-unit id="f7542cc89b8baf7092c14c8b7c2a9a2848b1d9ad" datatype="html">
+        <source> (Preview released, currently testing integration)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <note priority="1" from="description">sandbox demo is in integration phase, testing is in progress</note>
+        <note priority="1" from="meaning">available in preview</note>
+      </trans-unit>
+      <trans-unit id="b119f0f0837be5997a1c61d36d310354c992d009" datatype="html">
+        <source>Workload Security</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">workload security product title</note>
+        <note priority="1" from="meaning">workloadsec title</note>
+      </trans-unit>
+      <trans-unit id="d8de893253924f0c440eddf0c66e5fc2963bab62" datatype="html">
+        <source>File Storage Security</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <note priority="1" from="description">file storage security product title</note>
+        <note priority="1" from="meaning">fss title</note>
+      </trans-unit>
+      <trans-unit id="3ef82460c9d95a2c96816756c73f421cc9621f25" datatype="html">
+        <source>Container Security</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <note priority="1" from="description">container security product title</note>
+        <note priority="1" from="meaning">containersec title</note>
+      </trans-unit>
+      <trans-unit id="9117833ba3392ccc0277ab87046e5f4806e2754c" datatype="html">
+        <source> (Implementation in progress)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <note priority="1" from="description">development is in progress to integrate demo to sandbox</note>
+        <note priority="1" from="meaning">in progress</note>
+      </trans-unit>
+      <trans-unit id="fba3151967310aa9e3ac5b1355339364e2786c25" datatype="html">
+        <source>Upcoming</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <note priority="1" from="description">upcoming features to sandbox</note>
+        <note priority="1" from="meaning">upcoming features</note>
+      </trans-unit>
+      <trans-unit id="720909a60aaef7b6bad4c7af6c80ab7083214bf8" datatype="html">
+        <source>Auto-remediation | Host-based Container protection with Workload Security | GCP Workloads | AWS Lambda Functions | Misconfigurations for Conformity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <note priority="1" from="description">inline list of all features to be integrated into the demo sandbox</note>
+        <note priority="1" from="meaning">upcoming features list text</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

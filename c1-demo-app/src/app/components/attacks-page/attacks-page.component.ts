@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 import { environment } from '../../../environments/environment';
+import { C1TickerService } from '../../services/c1-ticker.service';
 
 @Component({
   selector: 'app-attacks-page',
@@ -11,7 +12,8 @@ import { environment } from '../../../environments/environment';
 export class AttacksPageComponent implements OnInit {
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private tickerService: C1TickerService
   ) {}
 
   ngOnInit(): void {
@@ -24,7 +26,8 @@ export class AttacksPageComponent implements OnInit {
     }
 
     this.http.post<any>(environment.serviceUrl + "/cmd/run", body).subscribe(data => {
-      console.dir(data);  
+      console.dir(data);
+      this.tickerService.writeToAppConsole(data)
       let err = 0;
       if (data.length > 0) {   
         err = 0;
@@ -44,7 +47,8 @@ export class AttacksPageComponent implements OnInit {
     }
 
     this.http.post<any>(environment.serviceUrl + "/cmd/run", body).subscribe(data => {
-      console.dir(data);  
+      console.dir(data);
+      this.tickerService.writeToAppConsole(data)
       let err = 0;
       if (data.length > 0) {   
         err = 0;
@@ -64,7 +68,8 @@ export class AttacksPageComponent implements OnInit {
     }
 
     this.http.post<any>(environment.serviceUrl + "/cmd/run", body).subscribe(data => {
-      console.dir(data);  
+      console.dir(data);
+      this.tickerService.writeToAppConsole(data)
       let err = 0;
       if (data.length > 0) {   
         err = 0;

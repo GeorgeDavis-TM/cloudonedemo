@@ -2,3 +2,11 @@
     font-weight: lighter;
     font-size: 3rem;
 }
+
+.marginTop10 {
+    margin-top: 1rem;
+}
+
+.form {
+    max-width: 30rem;
+}

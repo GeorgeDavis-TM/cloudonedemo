@@ -10,7 +10,12 @@ var app = express();
 
 //app.use(require('./middleware/client-url'));
 
-app.use(cors());
+var corsOptions = {
+  origin: 'http://3.129.164.225',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204 
+}
+
+app.use(cors(corsOptions));
 
 app.use(bodyParser.json({ type: [ 'json', '+json' ] }));
 
@@ -49,6 +54,7 @@ var router = express.Router();
 router.use('/login', routes.login);
 router.use('/cmd', routes.cmd);
 router.use('/upload', routes.upload)
+router.use('/ticker', routes.ticker)
 
 app.use(router);
 

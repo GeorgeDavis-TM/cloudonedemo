@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "c1-demo-svc",
   "dependencies": {
-    "@aws-sdk/client-cloudwatch-logs": "^3.18.0",
-    "@aws-sdk/client-s3": "^3.18.0",
+    "@aws-sdk/client-cloudwatch-logs": "^3.26.0",
+    "@aws-sdk/client-s3": "^3.26.0",
     "body-parser": "^1.15.1",
     "childprocess": "^2.0.2",
     "convict": "^1.3.0",
     "cors": "^2.8.5",
     "express": "^4.14.0",
     "mysql": "^2.11.1",
-    "trend_app_protect": "^4.3.1",
+    "trend_app_protect": "^4.5.0",
     "validator": "^5.2.0"
   },
   "scripts": {

@@ -76,7 +76,7 @@
         <source>Useful Links</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <note priority="1" from="description">customer useful product links</note>
         <note priority="1" from="meaning">link</note>
@@ -85,7 +85,7 @@
         <source>Trend Micro Cloud One</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">45</context>
         </context-group>
         <note priority="1" from="description">link to TM Cloud One</note>
         <note priority="1" from="meaning">cloud one title</note>
@@ -94,7 +94,7 @@
         <source>Trend Micro Blog</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <note priority="1" from="description">link to TM Blog</note>
         <note priority="1" from="meaning">blog title</note>
@@ -103,7 +103,7 @@
         <source>Cloud One Conformity Onboarding</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">49</context>
         </context-group>
         <note priority="1" from="description">link to Conformity</note>
         <note priority="1" from="meaning">conformity onboarding</note>
@@ -112,10 +112,19 @@
         <source>Cloud One Conformity</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">50</context>
         </context-group>
         <note priority="1" from="description">link to Conformity</note>
         <note priority="1" from="meaning">conformity title</note>
+      </trans-unit>
+      <trans-unit id="18a1e4e0d6bb201cd92b9f1827d3dcae045ce77e" datatype="html">
+        <source>DevOps Resource Center</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <note priority="1" from="description">link to DORC</note>
+        <note priority="1" from="meaning">dorc title</note>
       </trans-unit>
       <trans-unit id="1b41b42e9a8e3fe398b7731faee200de2bc52e4c" datatype="html">
         <source>Introducing Trend Micro Cloud One</source>

@@ -1,0 +1,48 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.nodeserver.name }}-deployment
+  namespace: {{ .Values.namespace.name }}
+  labels:
+    app: {{ .Values.nodeserver.name }}
+spec:
+  replicas: {{ .Values.nodeserver.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.nodeserver.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.nodeserver.name }}
+    spec:      
+      containers:
+      - name: {{ .Values.nodeserver.name }}
+        image: {{ .Values.nodeserver.image.name }}:{{ .Values.nodeserver.image.tag }}
+        imagePullPolicy: Never
+        ports:
+        - name: http
+          containerPort: {{ .Values.nodeserver.image.exposedPort }}
+        resources:
+          limits:
+            cpu: "1"
+            memory: "128Mi"
+        env:
+          - name: NODE_ENV
+            value: {{ .Values.nodeserver.env.NODE_ENV }}
+---            
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.nodeserver.name }}-svc
+  namespace: {{ .Values.namespace.name }}
+  labels:
+    app: {{ .Values.nodeserver.name }}
+spec:
+  type: {{ .Values.nodeserver.service.type }}
+  selector:
+    app: {{ .Values.nodeserver.name }}
+  ports:
+  - port: 3000
+    targetPort: {{ .Values.nodeserver.image.exposedPort }}
+    protocol: TCP

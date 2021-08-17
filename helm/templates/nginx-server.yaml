@@ -1,0 +1,45 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.nginxserver.name }}-deployment
+  namespace: {{ .Values.namespace.name }}
+  labels:
+    app: {{ .Values.nginxserver.name }}
+spec:
+  replicas: {{ .Values.nginxserver.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.nginxserver.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.nginxserver.name }}
+    spec:
+      containers:
+      - name: {{ .Values.nginxserver.name }}
+        image: {{ .Values.nginxserver.image.name }}:{{ .Values.nginxserver.image.tag }}
+        imagePullPolicy: Never
+        ports:
+        - name: http
+          containerPort: 80
+        resources:
+          limits:
+            cpu: "1"
+            memory: "128Mi"
+---            
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.nginxserver.name }}-svc
+  namespace: {{ .Values.namespace.name }}
+  labels:
+    app: nginx
+spec:
+  type: {{ .Values.nginxserver.service.type }}
+  selector:
+    app: {{ .Values.nginxserver.name }}
+  ports:
+  - port: 80
+    targetPort: {{ .Values.nginxserver.image.exposedPort }}
+    protocol: TCP
